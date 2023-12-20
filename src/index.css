@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "FiraGO";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://free.bboxtype.com/embedfonts/fonts.php?family=FiraGO&weight=400)
+    format("woff");
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3f2fa;
+}
